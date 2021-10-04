@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-
+import {Box} from '@chakra-ui/react'
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
@@ -21,7 +21,7 @@ const Home: NextPage = () => {
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
         </p>
-
+        <Box>This is a box</Box>
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h2>Documentation &rarr;</h2>
